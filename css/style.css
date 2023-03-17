@@ -137,9 +137,6 @@ img {
  }
 
 @media screen and (max-width: 480px) {
-    h1, h2{
-        max-width: 480px;
-    }
     .container{
         display: flex;
         flex-direction: column;
@@ -149,7 +146,18 @@ img {
         display: flex;
         flex-direction: column;
     }
-    .steps .col {
+    .row .col{
         width: 100%;
+        margin-bottom: 3em;
+    }
+    .text-center{
+        margin-bottom: 0;
+    }
+    .why-us{
+        background-color: #222222;
+        margin-bottom: 0;
+    }
+    .why-us h2{
+        margin-top: 1.5em;
     }
  }
